@@ -1,6 +1,6 @@
-*.png
+/Debug/
 *.jpeg
+*.png
 .project
 .cproject
 .settings/
-

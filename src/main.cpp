@@ -149,7 +149,7 @@ void mouseHandler(int event, int x, int y, int, void*) // (x,y) is where the mou
 
 int main(int argc, char **argv)
 {
-    //insert image path
+    //Insert image path
     cv::Mat src = cv::imread("tempImage.jpeg");
     minx = INT_MAX; miny = INT_MAX; maxx = INT_MIN; maxy = INT_MIN;
     img0 = src;
